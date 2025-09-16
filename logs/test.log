@@ -1,0 +1,64 @@
+00:25:20.421 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+00:25:20.492 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+00:25:20.493 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login api is working
+00:25:23.760 [main] ERROR com.api.listeners.TestListener - Failed!!loginTest
+00:25:23.873 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+00:26:01.338 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+00:26:01.401 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+00:26:01.401 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login api is working
+00:26:04.502 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+00:26:04.510 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login api is working
+00:26:04.544 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+00:56:37.513 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+00:56:37.581 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+00:56:37.582 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login api is working
+00:56:39.509 [main] INFO  com.api.filters.LoggingFilter - === Request ===
+00:56:39.518 [main] INFO  com.api.filters.LoggingFilter - Method: POST
+00:56:39.524 [main] INFO  com.api.filters.LoggingFilter - URI: http://64.227.160.186:8080/api/auth/login
+00:56:39.525 [main] INFO  com.api.filters.LoggingFilter - Headers: Accept=*/*
+Content-Type=application/json
+00:56:39.537 [main] ERROR com.api.listeners.TestListener - Failed!!loginTest
+00:56:39.642 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+00:58:45.364 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+00:58:45.429 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+00:58:45.430 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login api is working
+00:58:47.187 [main] INFO  com.api.filters.LoggingFilter - === Request ===
+00:58:47.195 [main] INFO  com.api.filters.LoggingFilter - Method: POST
+00:58:47.199 [main] INFO  com.api.filters.LoggingFilter - URI: http://64.227.160.186:8080/api/auth/login
+00:58:47.199 [main] INFO  com.api.filters.LoggingFilter - Headers: Accept=*/*
+Content-Type=application/json
+00:58:47.200 [main] INFO  com.api.filters.LoggingFilter - Body: {"username":"qaiserhabib","password":"Qaiserhabib@123"}
+00:58:48.389 [main] INFO  com.api.filters.LoggingFilter - === Response ===
+00:58:48.390 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+00:58:48.391 [main] INFO  com.api.filters.LoggingFilter - Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 16 Sep 2025 19:58:47 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:58:48.452 [main] INFO  com.api.filters.LoggingFilter - Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxYWlzZXJoYWJpYiIsImlhdCI6MTc1ODA1MjcyNywiZXhwIjoxNzU4MDU2MzI3fQ.pUtG-uJL50oZwrwCUD-nlKm3kQSmiBWTi2m-vZ6Pa7w",
+    "type": "Bearer",
+    "id": 2768,
+    "username": "qaiserhabib",
+    "email": "asifali@yopmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:58:48.554 [main] INFO  com.api.listeners.TestListener - Passed!!loginTest
+00:58:48.555 [main] INFO  com.api.listeners.TestListener - Description!!Verify if login api is working
+00:58:48.603 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
