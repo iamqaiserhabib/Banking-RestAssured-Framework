@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-15T00:33:47 PKT" name="Default suite" finished-at="2025-09-15T00:33:51 PKT" duration-ms="4330">
+  <suite started-at="2025-09-17T00:58:45 PKT" name="Default suite" finished-at="2025-09-17T00:58:48 PKT" duration-ms="3206">
     <groups>
     </groups>
-    <test started-at="2025-09-15T00:33:47 PKT" name="Default test" finished-at="2025-09-15T00:33:51 PKT" duration-ms="4330">
-      <class name="com.api.tests.UpdateProfileTest">
-        <test-method signature="udpateProfileTest()[pri:0, instance:com.api.tests.UpdateProfileTest@4efbca5a]" started-at="2025-09-15T00:33:47 PKT" name="udpateProfileTest" finished-at="2025-09-15T00:33:51 PKT" duration-ms="4269" status="PASS">
+    <test started-at="2025-09-17T00:58:45 PKT" name="Default test" finished-at="2025-09-17T00:58:48 PKT" duration-ms="3206">
+      <class name="com.api.tests.LoginAPITest">
+        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest@4efbca5a]" started-at="2025-09-17T00:58:45 PKT" name="loginTest" description="Verify if login api is working" finished-at="2025-09-17T00:58:48 PKT" duration-ms="3121" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- udpateProfileTest -->
-      </class> <!-- com.api.tests.UpdateProfileTest -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.api.tests.LoginAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
